@@ -13,3 +13,7 @@ Todo:
 - App Storage
 - Color Scheme Switch
 - Fetch Data from Endpoint
+
+### Demo
+
+![](https://github.com/ddikodroid/iswift-study-summary-swiftui/blob/master/demo.gif)
