@@ -48,6 +48,7 @@
 		2DC28113293AF76C00D426D8 = {
 			isa = PBXGroup;
 			children = (
+				2DB9DE8D293B78980074FC36 /* README.md */,
 				2DC2811E293AF76C00D426D8 /* iSwiftStudySummary */,
 				2DC2811D293AF76C00D426D8 /* Products */,
 			);
@@ -71,7 +72,6 @@
 				2DC28121293AF76C00D426D8 /* ContentView.swift */,
 				2DC28123293AF76D00D426D8 /* Assets.xcassets */,
 				2DC28125293AF76D00D426D8 /* Preview Content */,
-				2DB9DE8D293B78980074FC36 /* README.md */,
 			);
 			path = iSwiftStudySummary;
 			sourceTree = "<group>";
