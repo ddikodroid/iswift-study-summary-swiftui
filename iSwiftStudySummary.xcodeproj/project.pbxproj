@@ -51,6 +51,8 @@
 		2DC2811E293AF76C00D426D8 /* iSwiftStudySummary */ = {
 			isa = PBXGroup;
 			children = (
+				2DC2812E293AF7BF00D426D8 /* Model */,
+				2DC2812D293AF7B000D426D8 /* View */,
 				2DC2811F293AF76C00D426D8 /* iSwiftStudySummaryApp.swift */,
 				2DC28121293AF76C00D426D8 /* ContentView.swift */,
 				2DC28123293AF76D00D426D8 /* Assets.xcassets */,
@@ -65,6 +67,20 @@
 				2DC28126293AF76D00D426D8 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2DC2812D293AF7B000D426D8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2DC2812E293AF7BF00D426D8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
