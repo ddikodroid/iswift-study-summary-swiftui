@@ -11,6 +11,11 @@
 		2DC28122293AF76C00D426D8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DC28121293AF76C00D426D8 /* ContentView.swift */; };
 		2DC28124293AF76D00D426D8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2DC28123293AF76D00D426D8 /* Assets.xcassets */; };
 		2DC28127293AF76D00D426D8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2DC28126293AF76D00D426D8 /* Preview Assets.xcassets */; };
+		2DC28130293AF9E900D426D8 /* CoffeeshopModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DC2812F293AF9E900D426D8 /* CoffeeshopModel.swift */; };
+		2DC28132293AFA8900D426D8 /* CoffeeshopListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DC28131293AFA8900D426D8 /* CoffeeshopListView.swift */; };
+		2DC28134293AFB1000D426D8 /* CoffeeshopDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DC28133293AFB1000D426D8 /* CoffeeshopDetailView.swift */; };
+		2DC28137293B113700D426D8 /* ActivityView in Frameworks */ = {isa = PBXBuildFile; productRef = 2DC28136293B113700D426D8 /* ActivityView */; };
+		2DC2813A293B12EF00D426D8 /* CachedAsyncImage in Frameworks */ = {isa = PBXBuildFile; productRef = 2DC28139293B12EF00D426D8 /* CachedAsyncImage */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +24,9 @@
 		2DC28121293AF76C00D426D8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		2DC28123293AF76D00D426D8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2DC28126293AF76D00D426D8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2DC2812F293AF9E900D426D8 /* CoffeeshopModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeshopModel.swift; sourceTree = "<group>"; };
+		2DC28131293AFA8900D426D8 /* CoffeeshopListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeshopListView.swift; sourceTree = "<group>"; };
+		2DC28133293AFB1000D426D8 /* CoffeeshopDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeshopDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +34,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2DC28137293B113700D426D8 /* ActivityView in Frameworks */,
+				2DC2813A293B12EF00D426D8 /* CachedAsyncImage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +82,8 @@
 		2DC2812D293AF7B000D426D8 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				2DC28131293AFA8900D426D8 /* CoffeeshopListView.swift */,
+				2DC28133293AFB1000D426D8 /* CoffeeshopDetailView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -79,6 +91,7 @@
 		2DC2812E293AF7BF00D426D8 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				2DC2812F293AF9E900D426D8 /* CoffeeshopModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -99,6 +112,10 @@
 			dependencies = (
 			);
 			name = iSwiftStudySummary;
+			packageProductDependencies = (
+				2DC28136293B113700D426D8 /* ActivityView */,
+				2DC28139293B12EF00D426D8 /* CachedAsyncImage */,
+			);
 			productName = iSwiftStudySummary;
 			productReference = 2DC2811C293AF76C00D426D8 /* iSwiftStudySummary.app */;
 			productType = "com.apple.product-type.application";
@@ -127,6 +144,10 @@
 				Base,
 			);
 			mainGroup = 2DC28113293AF76C00D426D8;
+			packageReferences = (
+				2DC28135293B113700D426D8 /* XCRemoteSwiftPackageReference "ActivityView" */,
+				2DC28138293B12EF00D426D8 /* XCRemoteSwiftPackageReference "swiftui-cached-async-image" */,
+			);
 			productRefGroup = 2DC2811D293AF76C00D426D8 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -153,8 +174,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2DC28132293AFA8900D426D8 /* CoffeeshopListView.swift in Sources */,
 				2DC28122293AF76C00D426D8 /* ContentView.swift in Sources */,
 				2DC28120293AF76C00D426D8 /* iSwiftStudySummaryApp.swift in Sources */,
+				2DC28134293AFB1000D426D8 /* CoffeeshopDetailView.swift in Sources */,
+				2DC28130293AF9E900D426D8 /* CoffeeshopModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -355,6 +379,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		2DC28135293B113700D426D8 /* XCRemoteSwiftPackageReference "ActivityView" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SwiftUI-Plus/ActivityView.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+		2DC28138293B12EF00D426D8 /* XCRemoteSwiftPackageReference "swiftui-cached-async-image" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/lorenzofiamingo/swiftui-cached-async-image";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		2DC28136293B113700D426D8 /* ActivityView */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2DC28135293B113700D426D8 /* XCRemoteSwiftPackageReference "ActivityView" */;
+			productName = ActivityView;
+		};
+		2DC28139293B12EF00D426D8 /* CachedAsyncImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2DC28138293B12EF00D426D8 /* XCRemoteSwiftPackageReference "swiftui-cached-async-image" */;
+			productName = CachedAsyncImage;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 2DC28114293AF76C00D426D8 /* Project object */;
 }
