@@ -22,28 +22,12 @@ struct ContentView: View {
                             Text("Browse")
                         }
                         .tag(Tabs.coffeeshop)
-                    
-                    VStack {
-                        Text("Watch".uppercased())
-                            .font(.system(.largeTitle, design: .rounded))
-                        
-                        Button{
-                            selectedTab = Tabs.settings
-                        }label: {
-                            Text("Show Settings")
-                                .font(.system(.headline, design: .rounded))
-                                .padding()
-                                .foregroundColor(.white)
-                                .background(.indigo)
-                                .cornerRadius(12)
-                        }
-                        
-                    }
+                GalleryView()
                     .tabItem{
                         Image(systemName: "play.rectangle")
-                        Text("Watch")
+                        Text("Gallery")
                     }
-                    .tag(Tabs.watch)
+                    .tag(Tabs.gallery)
                     
                     Text("Loans".uppercased())
                         .font(.system(.largeTitle, design: .rounded))
@@ -78,7 +62,7 @@ struct ContentView_Previews: PreviewProvider {
 //MARK: - Enums
 enum Tabs: String {
     case coffeeshop
-    case watch
+    case gallery
     case loans
     case settings
 }
