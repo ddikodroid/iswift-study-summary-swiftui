@@ -16,4 +16,9 @@ Todo:
 
 ### Demo
 
+#### Browse Tab
 ![](https://github.com/ddikodroid/iswift-study-summary-swiftui/blob/master/demo.gif)
+
+
+#### Animation Tab
+![](https://github.com/ddikodroid/iswift-study-summary-swiftui/blob/master/demo-animation.gif)
