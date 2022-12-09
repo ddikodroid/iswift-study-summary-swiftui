@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2D0CFAA32943324A00B71C83 /* AnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D0CFAA22943324A00B71C83 /* AnimationView.swift */; };
+		2D0CFAA5294334C100B71C83 /* ScaleEffectAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D0CFAA4294334C100B71C83 /* ScaleEffectAnimationView.swift */; };
+		2D0CFAA7294335EF00B71C83 /* LoadingIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D0CFAA6294335EF00B71C83 /* LoadingIndicatorView.swift */; };
+		2D0CFAA92943375D00B71C83 /* ProgressAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D0CFAA82943375D00B71C83 /* ProgressAnimationView.swift */; };
+		2D0CFAAB2943396A00B71C83 /* BubbleLoadingIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D0CFAAA2943396A00B71C83 /* BubbleLoadingIndicatorView.swift */; };
+		2D0CFAAD29433BDE00B71C83 /* ButtonAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D0CFAAC29433BDE00B71C83 /* ButtonAnimationView.swift */; };
+		2D0CFAAF294343C600B71C83 /* demo-animation.gif in Resources */ = {isa = PBXBuildFile; fileRef = 2D0CFAAE294343C600B71C83 /* demo-animation.gif */; };
 		2DB9DE8C293B76DF0074FC36 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DB9DE8B293B76DF0074FC36 /* LaunchScreen.storyboard */; };
 		2DB9DE8F293B7A4E0074FC36 /* demo.gif in Resources */ = {isa = PBXBuildFile; fileRef = 2DB9DE8E293B7A4E0074FC36 /* demo.gif */; };
 		2DBF97FD293F74E10074C2B1 /* GalleryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DBF97FC293F74E10074C2B1 /* GalleryView.swift */; };
@@ -22,6 +29,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2D0CFAA22943324A00B71C83 /* AnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationView.swift; sourceTree = "<group>"; };
+		2D0CFAA4294334C100B71C83 /* ScaleEffectAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScaleEffectAnimationView.swift; sourceTree = "<group>"; };
+		2D0CFAA6294335EF00B71C83 /* LoadingIndicatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingIndicatorView.swift; sourceTree = "<group>"; };
+		2D0CFAA82943375D00B71C83 /* ProgressAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressAnimationView.swift; sourceTree = "<group>"; };
+		2D0CFAAA2943396A00B71C83 /* BubbleLoadingIndicatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BubbleLoadingIndicatorView.swift; sourceTree = "<group>"; };
+		2D0CFAAC29433BDE00B71C83 /* ButtonAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonAnimationView.swift; sourceTree = "<group>"; };
+		2D0CFAAE294343C600B71C83 /* demo-animation.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "demo-animation.gif"; sourceTree = "<group>"; };
 		2DB9DE8B293B76DF0074FC36 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2DB9DE8D293B78980074FC36 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		2DB9DE8E293B7A4E0074FC36 /* demo.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = demo.gif; sourceTree = "<group>"; };
@@ -52,6 +66,7 @@
 		2DC28113293AF76C00D426D8 = {
 			isa = PBXGroup;
 			children = (
+				2D0CFAAE294343C600B71C83 /* demo-animation.gif */,
 				2DB9DE8E293B7A4E0074FC36 /* demo.gif */,
 				2DB9DE8D293B78980074FC36 /* README.md */,
 				2DC2811E293AF76C00D426D8 /* iSwiftStudySummary */,
@@ -95,6 +110,12 @@
 				2DC28131293AFA8900D426D8 /* CoffeeshopListView.swift */,
 				2DC28133293AFB1000D426D8 /* CoffeeshopDetailView.swift */,
 				2DBF97FC293F74E10074C2B1 /* GalleryView.swift */,
+				2D0CFAA22943324A00B71C83 /* AnimationView.swift */,
+				2D0CFAA4294334C100B71C83 /* ScaleEffectAnimationView.swift */,
+				2D0CFAA6294335EF00B71C83 /* LoadingIndicatorView.swift */,
+				2D0CFAA82943375D00B71C83 /* ProgressAnimationView.swift */,
+				2D0CFAAA2943396A00B71C83 /* BubbleLoadingIndicatorView.swift */,
+				2D0CFAAC29433BDE00B71C83 /* ButtonAnimationView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -175,6 +196,7 @@
 			files = (
 				2DB9DE8C293B76DF0074FC36 /* LaunchScreen.storyboard in Resources */,
 				2DB9DE8F293B7A4E0074FC36 /* demo.gif in Resources */,
+				2D0CFAAF294343C600B71C83 /* demo-animation.gif in Resources */,
 				2DC28127293AF76D00D426D8 /* Preview Assets.xcassets in Resources */,
 				2DC28124293AF76D00D426D8 /* Assets.xcassets in Resources */,
 			);
@@ -188,10 +210,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				2DC28132293AFA8900D426D8 /* CoffeeshopListView.swift in Sources */,
+				2D0CFAA5294334C100B71C83 /* ScaleEffectAnimationView.swift in Sources */,
+				2D0CFAAB2943396A00B71C83 /* BubbleLoadingIndicatorView.swift in Sources */,
+				2D0CFAAD29433BDE00B71C83 /* ButtonAnimationView.swift in Sources */,
 				2DBF97FD293F74E10074C2B1 /* GalleryView.swift in Sources */,
+				2D0CFAA7294335EF00B71C83 /* LoadingIndicatorView.swift in Sources */,
 				2DC28122293AF76C00D426D8 /* ContentView.swift in Sources */,
 				2DC28120293AF76C00D426D8 /* iSwiftStudySummaryApp.swift in Sources */,
+				2D0CFAA32943324A00B71C83 /* AnimationView.swift in Sources */,
 				2DC28134293AFB1000D426D8 /* CoffeeshopDetailView.swift in Sources */,
+				2D0CFAA92943375D00B71C83 /* ProgressAnimationView.swift in Sources */,
 				2DC28130293AF9E900D426D8 /* CoffeeshopModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

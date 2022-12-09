@@ -28,6 +28,13 @@ struct ContentView: View {
                         Text("Gallery")
                     }
                     .tag(Tabs.gallery)
+                
+                AnimationView()
+                    .tabItem{
+                        Image(systemName: "scribble.variable")
+                        Text(Tabs.animation.rawValue.capitalized)
+                    }
+                    .tag(Tabs.animation)
                     
                     Text("Loans".uppercased())
                         .font(.system(.largeTitle, design: .rounded))
@@ -63,6 +70,7 @@ struct ContentView_Previews: PreviewProvider {
 enum Tabs: String {
     case coffeeshop
     case gallery
+    case animation
     case loans
     case settings
 }
